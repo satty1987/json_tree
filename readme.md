@@ -51,7 +51,7 @@ hideFunctions : To Show the function in tree. set it true or false
 ```
 # ScreenShots
 ### Console With Values
-![image](https://github.com/satty1987/JsonTree/blob/master/consoleWithValues.jpg)
+![image](https://github.com/satty1987/json_tree/blob/master/screenshots/consoleWithValues.jpg)
 
 ### Console Without Values
-![image](https://github.com/satty1987/JsonTree/blob/master/consoleWithoutValues.jpg)
+![image](https://github.com/satty1987/JsonTree/blob/master/screenshots/consoleWithoutValues.jpg)
