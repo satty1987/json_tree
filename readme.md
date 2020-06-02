@@ -41,7 +41,7 @@ Usage
 The methods exposed to you are as follows, in a strange kind of signature notation:
 
 
-### JsonTree()
+### jsonTree()
 ```js
 JsonTree(obj, showValues (boolean), hideFunctions?:bollean)
 
