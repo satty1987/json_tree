@@ -19,8 +19,6 @@ generated is similar to what you get by running the ```tree``` command on Unixy 
 ```
 
 It also works well with larger nested hierarchies such as file system directory trees.
-In fact, the ```fs_tree``` example does a pretty good job of imitating ```tree```. Try it out!
-
 
 Getting it
 ----------
