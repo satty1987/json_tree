@@ -1,4 +1,4 @@
-import {JsonTree } from "./mod.ts"
+import {jsonTree } from "./mod.ts"
 
 const data = [
     {
@@ -234,5 +234,5 @@ const data = [
   ];
 
 console.log(
-    JsonTree(data,true)
+  jsonTree(data,true)
 );

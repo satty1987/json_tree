@@ -26,7 +26,7 @@ Getting it
 ### For use with deno
 
 ```ts
-import { JsonTree } from "https://deno.land/x/JsonTree/mod.ts";
+import { JsonTree } from "https://deno.land/x/json_tree/mod.ts";
 console.log(
    JsonTree({
       apples: 'gala',      //  ├─ apples: gala

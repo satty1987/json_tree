@@ -52,7 +52,7 @@ function growBranch(key: any, root: any, last: any, lastStates: any, showValues:
     }
 };
 
-let JsonTree = function (obj: any, showValues: any, hideFunctions?: any) {
+let jsonTree = function (obj: any, showValues: any, hideFunctions?: any) {
     let tree = '';
     growBranch('.', obj, false, [], showValues, hideFunctions, function (line: any) {
         tree += line + '\n';
@@ -60,4 +60,4 @@ let JsonTree = function (obj: any, showValues: any, hideFunctions?: any) {
     return tree;
 };
 
-export {JsonTree};
+export {jsonTree};
