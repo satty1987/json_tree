@@ -28,7 +28,7 @@ Getting it
 ```ts
 import { jsonTree } from "https://deno.land/x/json_tree/mod.ts";
 console.log(
-   JsonTree({
+   jsonTree({
       apples: 'gala',      //  ├─ apples: gala
       oranges: 'mandarin'  //  └─ oranges: mandarin
    }, true)
@@ -43,9 +43,9 @@ The methods exposed to you are as follows, in a strange kind of signature notati
 
 ### jsonTree()
 ```js
-JsonTree(obj, showValues (boolean), hideFunctions?:bollean)
+jsonTree(obj, showValues (boolean), hideFunctions?:bollean)
 
-obj : Json Object
+obj : json Object
 showValues : To Show the object values in tree. set it true or false
 hideFunctions : To Show the function in tree. set it true or false
 ```
