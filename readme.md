@@ -49,7 +49,7 @@ deno run --allow-net https://deno.land/x/json_tree/cli.ts fetch https://jsonplac
 You can also install it globally using the following:
 
 ```bash
-deno install --allow-net -allow-net -n jsonTree https://deno.land/x/json_tree/cli.ts
+deno install --allow-net --allow-read -n jsonTree https://deno.land/x/json_tree/cli.ts
 ```
 
 Then, the package is available to run:
