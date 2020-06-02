@@ -34,6 +34,36 @@ console.log(
    }, true)
 );
 ```
+### CLI
+
+Alternatively, you can use it directly from the CLI:
+
+#### Read Json from local directory
+```bash
+deno run --allow-read https://deno.land/x/json_tree/cli.ts path sample.json
+```
+#### Read Json from server
+```bash
+deno run --allow-net https://deno.land/x/json_tree/cli.ts fetch https://jsonplaceholder.typicode.com/users
+```
+You can also install it globally using the following:
+
+```bash
+deno install --allow-net -allow-net -n jsonTree https://deno.land/x/json_tree/cli.ts
+```
+
+Then, the package is available to run:
+
+```bash
+jsonTree
+```
+
+### Configuration
+
+Required permissions:
+
+1. `--allow-net`
+2. `--allow-read`
 
 Usage
 -----
@@ -55,3 +85,4 @@ hideFunctions : To Show the function in tree. set it true or false
 
  ##### Console Without Values
 ![image](https://raw.githubusercontent.com/satty1987/json_tree/master/screenshots/consoleWithoutValues.jpg)
+
