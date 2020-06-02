@@ -45,9 +45,15 @@ The methods exposed to you are as follows, in a strange kind of signature notati
 
 ### JsonTree()
 ```js
-JsonTree(obj, showValues (boolean), hideFunctions:bollean)
+JsonTree(obj, showValues (boolean), hideFunctions?:bollean)
 
 obj : Json Object
 showValues : To Show the object values in tree. set it true or false
 hideFunctions : To Show the function in tree. set it true or false
 ```
+# ScreenShots
+### Console With Values
+![image](https://github.com/satty1987/JsonTree/blob/master/consoleWithValues.jpg)
+
+### Console Without Values
+![image](https://github.com/satty1987/JsonTree/blob/master/consoleWithValues.jpg)
